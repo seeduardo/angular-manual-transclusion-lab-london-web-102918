@@ -4,9 +4,12 @@ function UserProfile() {
 		template: [
 			'<div>',
 				'<h3>User Profile</h3>',
-				'<div ng-transclude></div>',
+				'<span></span>',
 			'</div>'
-		].join('')
+		].join(''),
+		link: function (scope, element, attrs, ctrl, transclude) {
+			element.find('span').after(transclude());
+		}
 	}
 }
 
