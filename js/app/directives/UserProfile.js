@@ -4,7 +4,7 @@ function UserProfile() {
 		template: [
 			'<div>',
 				'<h3>User Profile</h3>',
-				'<div ng-transclude></div>',
+				'<span></span>',
 			'</div>'
 		].join('')
 	}

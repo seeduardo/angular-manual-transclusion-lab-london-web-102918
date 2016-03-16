@@ -6,6 +6,6 @@
 
 ## Instructions
 
-Take the `UserProfile` directive in this repo. You'll notice that we are currently doing automated transclusion for our elements.
+Take a look at the `UserProfile` directive in this repo. .
 
-Now that we know how to do manual transclusion, change our directive over to manual transclusion rather than automated.
+Now that we know how to do manual transclusion, add a `link` function to insert the contents into our directive using manual transclusion.
